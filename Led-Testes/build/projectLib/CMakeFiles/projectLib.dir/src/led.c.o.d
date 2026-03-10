@@ -1,0 +1,42 @@
+projectLib/CMakeFiles/projectLib.dir/src/led.c.o: \
+ C:/Users/santa/Embbebed/Led-Testes/projectLib/src/led.c \
+ C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/led.h \
+ C:/msys64/mingw32/include/stdio.h \
+ C:/msys64/mingw32/include/corecrt_stdio_config.h \
+ C:/msys64/mingw32/include/corecrt.h C:/msys64/mingw32/include/_mingw.h \
+ C:/msys64/mingw32/include/_mingw_mac.h \
+ C:/msys64/mingw32/include/_mingw_secapi.h \
+ C:/msys64/mingw32/include/vadefs.h \
+ C:/msys64/mingw32/include/_mingw_off_t.h \
+ C:/msys64/mingw32/include/swprintf.inl \
+ C:/msys64/mingw32/include/sec_api/stdio_s.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_ll_system.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/DEVICE/ST/STM32C0xx/Include/stm32c0xx.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/DEVICE/ST/STM32C0xx/Include/stm32c011xx.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/Include/core_cm0plus.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stdint.h \
+ C:/msys64/mingw32/include/stdint.h C:/msys64/mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stddef.h \
+ C:/msys64/mingw32/include/stddef.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/Include/cmsis_version.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/Include/cmsis_compiler.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/Include/cmsis_gcc.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/Include/mpu_armv7.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/DEVICE/ST/STM32C0xx/Include/system_stm32c0xx.h \
+ C:/Users/santa/Embbebed/Led-Testes/Core/Inc/stm32c0xx_hal_conf.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_rcc.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_def.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/Legacy/stm32_hal_legacy.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_ll_rcc.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_rcc_ex.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_gpio.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_gpio_ex.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_dma.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_dma_ex.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_cortex.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_exti.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_flash.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_flash_ex.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_pwr.h \
+ C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal_pwr_ex.h

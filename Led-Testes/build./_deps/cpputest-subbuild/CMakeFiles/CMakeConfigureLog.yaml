@@ -1,0 +1,63 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/mingw32/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/c/Windows/System32/"
+      - "/c/Windows/"
+      - "/c/Windows/System32/Wbem/"
+      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/mingw32/bin/uname.com"
+      - "/mingw32/bin/uname.exe"
+      - "/mingw32/bin/uname"
+      - "/usr/local/bin/uname.com"
+      - "/usr/local/bin/uname.exe"
+      - "/usr/local/bin/uname"
+      - "/usr/bin/uname.com"
+    found: "/usr/bin/uname.exe"
+    search_context:
+      ENV{PATH}:
+        - "/mingw32/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/c/Windows/System32"
+        - "/c/Windows"
+        - "/c/Windows/System32/Wbem"
+        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: MSYS - 3.6.6-2369286a.x86_64 - x86_64
+...

@@ -1,0 +1,4 @@
+../projectLib/Src/led.c:22:6:PushButton	16	static
+../projectLib/Src/led.c:31:6:LedToggle	16	static
+../projectLib/Src/led.c:41:6:LedOn	16	static
+../projectLib/Src/led.c:51:6:LedOff	16	static

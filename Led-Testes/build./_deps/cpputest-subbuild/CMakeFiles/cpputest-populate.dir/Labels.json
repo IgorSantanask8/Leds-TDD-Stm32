@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/CMakeFiles/cpputest-populate"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/CMakeFiles/cpputest-populate.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/CMakeFiles/cpputest-populate-complete.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-build.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-configure.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-download.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-install.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-mkdir.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-patch.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-test.rule"
+		},
+		{
+			"file" : "/c/Users/santa/Embbebed/Led-Testes/build./_deps/cpputest-subbuild/cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpputest-populate"
+		],
+		"name" : "cpputest-populate"
+	}
+}

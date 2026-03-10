@@ -119,8 +119,33 @@ FetchContent_MakeAvailable(CppUTest)
 
  Com poucas configurações foi possível construir um ambiente de testes que servem ao propósito desse documento. Um ponto a se observar são os includes no arquivo CMakeLists.txt da pasta projectLib,
  foi necessário adicionar todos esses caminhos para serem criados as funções mocks (funções que simulam o comportamento real do hardware (target) que estamos usando), como usamos o DEVICE STM32C011xx, 
- foi adicionado o target_compile_definitios(projectLib ${DEVICE}), sem essa linha de configuração se torna quase impossível simular uma função da lib HAL.
+ foi adicionado o target_compile_definitios(projectLib ${DEVICE}), sem essa linha de configuração se torna quase impossível simular uma função da lib HAL. O CppUTest foi carregado através de seu repósitoro.
 
+ TESTES
+ ---------------------------------
+ Foram criados alguns testes básicos com implementações utilizando "printf" para validar o funcionamento de funções.
+ As funções de mocks foram criadas para simular a leitura do estado de um pino, modificar o estado de um pino e integrar tais funções em uma função que utiliza o botão integrado da Franzinho C0.
+ As funções criadas foram as seguintes seguinto o cabeçalho do arquivo.h
+
+ Mocks :
+
+ void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN, GPIO_PinState state){}
+
+ void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx. uint16_t GPIO_PIN){}
+
+ GPIO_PinState HAL_GPIO_ReadPin(const GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN){
+ 
+  [...]
+
+ }
+
+ As implementações dessas funções podem ser vistas no arquivo led.c
+
+ RESULTADOS
+ ---------------------------------
+ Após validar os testes o código foi implementado no target e o funcionamento foi executado exatamente como esperado, ao pressionar o botão (A8), os leds irão mudar seu estado com base em um delay definido pelo usuário.
+
+ Este projeto inicial tem como foco validar os conhecimentos no Desenvolvimento Orientado a testes.
  
 
  

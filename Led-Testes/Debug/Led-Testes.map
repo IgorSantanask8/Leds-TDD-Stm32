@@ -1934,6 +1934,10 @@ Discarded input sections
  .group         0x00000000        0xc ./projectLib/Src/led.o
  .group         0x00000000        0xc ./projectLib/Src/led.o
  .group         0x00000000        0xc ./projectLib/Src/led.o
+ .group         0x00000000        0xc ./projectLib/Src/led.o
+ .group         0x00000000        0xc ./projectLib/Src/led.o
+ .group         0x00000000        0xc ./projectLib/Src/led.o
+ .group         0x00000000        0xc ./projectLib/Src/led.o
  .text          0x00000000        0x0 ./projectLib/Src/led.o
  .data          0x00000000        0x0 ./projectLib/Src/led.o
  .bss           0x00000000        0x0 ./projectLib/Src/led.o
@@ -1959,11 +1963,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./projectLib/Src/led.o
  .debug_macro   0x00000000       0x16 ./projectLib/Src/led.o
  .debug_macro   0x00000000      0x146 ./projectLib/Src/led.o
- .debug_macro   0x00000000       0x2e ./projectLib/Src/led.o
- .debug_macro   0x00000000       0x28 ./projectLib/Src/led.o
+ .debug_macro   0x00000000       0x3c ./projectLib/Src/led.o
  .debug_macro   0x00000000      0x103 ./projectLib/Src/led.o
  .debug_macro   0x00000000       0x6a ./projectLib/Src/led.o
  .debug_macro   0x00000000      0x1df ./projectLib/Src/led.o
+ .debug_macro   0x00000000       0x2e ./projectLib/Src/led.o
+ .debug_macro   0x00000000       0x28 ./projectLib/Src/led.o
  .debug_macro   0x00000000       0x1c ./projectLib/Src/led.o
  .debug_macro   0x00000000       0x22 ./projectLib/Src/led.o
  .debug_macro   0x00000000       0xd1 ./projectLib/Src/led.o
@@ -2873,7 +2878,7 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_rnglists
                 0x0000034d       0x25 ./projectLib/Src/led.o
 
-.debug_macro    0x00000000    0x13017
+.debug_macro    0x00000000    0x130a8
  .debug_macro   0x00000000      0x299 ./Core/Src/main.o
  .debug_macro   0x00000299      0xaae ./Core/Src/main.o
  .debug_macro   0x00000d47       0x2e ./Core/Src/main.o
@@ -2969,12 +2974,15 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_macro   0x00012631      0x1a8 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.o
  .debug_macro   0x000127d9      0x1dd ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.o
  .debug_macro   0x000129b6      0x1d8 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.o
- .debug_macro   0x00012b8e      0x284 ./projectLib/Src/led.o
- .debug_macro   0x00012e12       0x9e ./projectLib/Src/led.o
- .debug_macro   0x00012eb0      0x112 ./projectLib/Src/led.o
- .debug_macro   0x00012fc2       0x55 ./projectLib/Src/led.o
+ .debug_macro   0x00012b8e      0x2bd ./projectLib/Src/led.o
+ .debug_macro   0x00012e4b       0x9e ./projectLib/Src/led.o
+ .debug_macro   0x00012ee9      0x112 ./projectLib/Src/led.o
+ .debug_macro   0x00012ffb       0x22 ./projectLib/Src/led.o
+ .debug_macro   0x0001301d       0x16 ./projectLib/Src/led.o
+ .debug_macro   0x00013033       0x20 ./projectLib/Src/led.o
+ .debug_macro   0x00013053       0x55 ./projectLib/Src/led.o
 
-.debug_line     0x00000000     0x657e
+.debug_line     0x00000000     0x65c0
  .debug_line    0x00000000      0x961 ./Core/Src/main.o
  .debug_line    0x00000961      0x715 ./Core/Src/stm32c0xx_hal_msp.o
  .debug_line    0x00001076      0x770 ./Core/Src/stm32c0xx_it.o
@@ -2986,33 +2994,33 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_line    0x00003855      0xb65 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.o
  .debug_line    0x000043ba      0xb4e ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.o
  .debug_line    0x00004f08      0xd6d ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.o
- .debug_line    0x00005c75      0x909 ./projectLib/Src/led.o
+ .debug_line    0x00005c75      0x94b ./projectLib/Src/led.o
 
-.debug_str      0x00000000    0x6f8a1
- .debug_str     0x00000000    0x6f8a1 ./Core/Src/main.o
+.debug_str      0x00000000    0x6f950
+ .debug_str     0x00000000    0x6f950 ./Core/Src/main.o
                               0x6ccc6 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Core/Src/stm32c0xx_hal_msp.o
+ .debug_str     0x0006f950        0x0 ./Core/Src/stm32c0xx_hal_msp.o
                               0x69274 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Core/Src/stm32c0xx_it.o
+ .debug_str     0x0006f950        0x0 ./Core/Src/stm32c0xx_it.o
                               0x691e8 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Core/Src/syscalls.o
+ .debug_str     0x0006f950        0x0 ./Core/Src/syscalls.o
                                0x98c9 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Core/Src/sysmem.o
+ .debug_str     0x0006f950        0x0 ./Core/Src/sysmem.o
                                0x7667 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Core/Src/system_stm32c0xx.o
+ .debug_str     0x0006f950        0x0 ./Core/Src/system_stm32c0xx.o
                               0x6925f (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Core/Startup/startup_stm32c011f6px.o
+ .debug_str     0x0006f950        0x0 ./Core/Startup/startup_stm32c011f6px.o
                                  0x6d (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.o
+ .debug_str     0x0006f950        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.o
                               0x69855 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.o
+ .debug_str     0x0006f950        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.o
                               0x69678 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.o
+ .debug_str     0x0006f950        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.o
                               0x69457 (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.o
+ .debug_str     0x0006f950        0x0 ./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.o
                               0x6984a (size before relaxing)
- .debug_str     0x0006f8a1        0x0 ./projectLib/Src/led.o
-                              0x6c96a (size before relaxing)
+ .debug_str     0x0006f950        0x0 ./projectLib/Src/led.o
+                              0x6ca29 (size before relaxing)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Core/Src/main.o

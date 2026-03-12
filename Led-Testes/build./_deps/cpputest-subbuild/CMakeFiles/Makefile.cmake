@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
   "CMakeLists.txt"
   "cpputest-populate-prefix/tmp/cpputest-populate-mkdirs.cmake"
-  "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake/Modules/ExternalProject.cmake"
@@ -40,7 +38,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.2.3/CMakeSystem.cmake"
   "cpputest-populate-prefix/tmp/cpputest-populate-mkdirs.cmake"
   "cpputest-populate-prefix/tmp/cpputest-populate-gitclone.cmake"
   "cpputest-populate-prefix/src/cpputest-populate-stamp/cpputest-populate-gitinfo.txt"

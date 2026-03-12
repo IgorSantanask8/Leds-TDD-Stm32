@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.22)
 add_executable(test_on_host
  src/main_test.cpp
  src/utils/ut_gpio.cpp
+ src/utils/ut_timer.cpp
+ src/utils/ut_uart.cpp
 )
 
 target_include_directories(test_on_host

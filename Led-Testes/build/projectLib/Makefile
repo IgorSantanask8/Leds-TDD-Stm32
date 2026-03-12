@@ -154,6 +154,30 @@ src/led.c.s:
 	cd /c/Users/santa/Embbebed/Led-Testes/build && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/led.c.s
 .PHONY : src/led.c.s
 
+src/timer.o: src/timer.c.o
+.PHONY : src/timer.o
+
+# target to build an object file
+src/timer.c.o:
+	cd /c/Users/santa/Embbebed/Led-Testes/build && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/timer.c.o
+.PHONY : src/timer.c.o
+
+src/timer.i: src/timer.c.i
+.PHONY : src/timer.i
+
+# target to preprocess a source file
+src/timer.c.i:
+	cd /c/Users/santa/Embbebed/Led-Testes/build && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/timer.c.i
+.PHONY : src/timer.c.i
+
+src/timer.s: src/timer.c.s
+.PHONY : src/timer.s
+
+# target to generate assembly for a file
+src/timer.c.s:
+	cd /c/Users/santa/Embbebed/Led-Testes/build && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/timer.c.s
+.PHONY : src/timer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... src/led.o"
 	@echo "... src/led.i"
 	@echo "... src/led.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 .PHONY : help
 
 

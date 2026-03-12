@@ -1,22 +1,21 @@
-projectLib/CMakeFiles/projectLib.dir/src/led.c.o: \
- C:/Users/santa/Embbebed/Led-Testes/projectLib/src/led.c \
- C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/led.h \
- C:/msys64/mingw32/include/stdio.h \
- C:/msys64/mingw32/include/corecrt_stdio_config.h \
+projectLib/CMakeFiles/projectLib.dir/src/timer.c.o: \
+ C:/Users/santa/Embbebed/Led-Testes/projectLib/src/timer.c \
+ C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/timer.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stdint.h \
+ C:/msys64/mingw32/include/stdint.h C:/msys64/mingw32/include/crtdefs.h \
  C:/msys64/mingw32/include/corecrt.h C:/msys64/mingw32/include/_mingw.h \
  C:/msys64/mingw32/include/_mingw_mac.h \
  C:/msys64/mingw32/include/_mingw_secapi.h \
  C:/msys64/mingw32/include/vadefs.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stddef.h \
+ C:/msys64/mingw32/include/stddef.h C:/msys64/mingw32/include/stdio.h \
+ C:/msys64/mingw32/include/corecrt_stdio_config.h \
  C:/msys64/mingw32/include/_mingw_off_t.h \
  C:/msys64/mingw32/include/swprintf.inl \
  C:/msys64/mingw32/include/sec_api/stdio_s.h \
  C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stdbool.h \
- C:/msys64/mingw32/include/string.h C:/msys64/mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/include/string.h \
  C:/msys64/mingw32/include/sec_api/string_s.h \
- C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stdint.h \
- C:/msys64/mingw32/include/stdint.h \
- C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stddef.h \
- C:/msys64/mingw32/include/stddef.h \
  C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_hal.h \
  C:/Users/santa/Embbebed/Led-Testes/Drivers/STM32C0xx_HAL_DRIVER/Inc/stm32c0xx_ll_system.h \
  C:/Users/santa/Embbebed/Led-Testes/Drivers/CMSIS/DEVICE/ST/STM32C0xx/Include/stm32c0xx.h \

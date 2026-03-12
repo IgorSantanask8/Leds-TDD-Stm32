@@ -100,24 +100,58 @@ Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.s"
 	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_gpio.cpp -o CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.s
 
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o: Tests/CMakeFiles/test_on_host.dir/flags.make
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o: /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_timer.cpp
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o: Tests/CMakeFiles/test_on_host.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/santa/Embbebed/Led-Testes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o"
+	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o -MF CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o.d -o CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o -c /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_timer.cpp
+
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.i"
+	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_timer.cpp > CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.i
+
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.s"
+	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_timer.cpp -o CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.s
+
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o: Tests/CMakeFiles/test_on_host.dir/flags.make
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o: /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_uart.cpp
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o: Tests/CMakeFiles/test_on_host.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/santa/Embbebed/Led-Testes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o"
+	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o -MF CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o.d -o CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o -c /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_uart.cpp
+
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.i"
+	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_uart.cpp > CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.i
+
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.s"
+	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && /mingw32/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_uart.cpp -o CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.s
+
 # Object files for target test_on_host
 test_on_host_OBJECTS = \
 "CMakeFiles/test_on_host.dir/src/main_test.cpp.o" \
-"CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o"
+"CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o" \
+"CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o" \
+"CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o"
 
 # External object files for target test_on_host
 test_on_host_EXTERNAL_OBJECTS = \
-"/c/Users/santa/Embbebed/Led-Testes/build/projectLib/CMakeFiles/projectLib.dir/src/led.c.o"
+"/c/Users/santa/Embbebed/Led-Testes/build/projectLib/CMakeFiles/projectLib.dir/src/led.c.o" \
+"/c/Users/santa/Embbebed/Led-Testes/build/projectLib/CMakeFiles/projectLib.dir/src/timer.c.o"
 
 Tests/test_on_host.exe: Tests/CMakeFiles/test_on_host.dir/src/main_test.cpp.o
 Tests/test_on_host.exe: Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o
+Tests/test_on_host.exe: Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o
+Tests/test_on_host.exe: Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o
 Tests/test_on_host.exe: projectLib/CMakeFiles/projectLib.dir/src/led.c.o
+Tests/test_on_host.exe: projectLib/CMakeFiles/projectLib.dir/src/timer.c.o
 Tests/test_on_host.exe: Tests/CMakeFiles/test_on_host.dir/build.make
 Tests/test_on_host.exe: _deps/cpputest-build/src/CppUTest/libCppUTest.a
 Tests/test_on_host.exe: _deps/cpputest-build/src/CppUTestExt/libCppUTestExt.a
 Tests/test_on_host.exe: _deps/cpputest-build/src/CppUTest/libCppUTest.a
 Tests/test_on_host.exe: Tests/CMakeFiles/test_on_host.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/c/Users/santa/Embbebed/Led-Testes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_on_host.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/c/Users/santa/Embbebed/Led-Testes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_on_host.exe"
 	cd /c/Users/santa/Embbebed/Led-Testes/build/Tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_on_host.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,5 @@
-Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o: \
- C:/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_gpio.cpp \
+Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o: \
+ C:/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_uart.cpp \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/MemoryLeakDetectorForceInclude.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/MemoryLeakDetectorMallocMacros.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/CppUTestConfig.h \
@@ -149,22 +149,21 @@ Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o: \
  C:/msys64/mingw32/include/stdarg.h \
  C:/msys64/mingw32/include/_mingw_stdarg.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/MemoryLeakDetectorNewMacros.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/Testharness.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/Utest.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/SimpleString.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/UtestMacros.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestResult.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestFailure.h \
- C:/msys64/mingw32/include/c++/15.2.0/stdexcept \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestPlugin.h \
- C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/MemoryLeakWarningPlugin.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockSupport.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockFailure.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestFailure.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/SimpleString.h \
+ C:/msys64/mingw32/include/c++/15.2.0/stdexcept \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockCheckedActualCall.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockActualCall.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/CppUTestConfig.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestHarness.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/Utest.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/UtestMacros.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestResult.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestFailure.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/TestPlugin.h \
+ C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTest/MemoryLeakWarningPlugin.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockNamedValue.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockExpectedCallsList.h \
  C:/Users/santa/Embbebed/Led-Testes/thirdy-party/cpputest/include/CppUTestExt/MockCheckedExpectedCall.h \
@@ -196,4 +195,5 @@ Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o: \
  C:/msys64/mingw32/include/c++/15.2.0/istream \
  C:/msys64/mingw32/include/c++/15.2.0/bits/istream.tcc \
  C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/led.h \
- C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/timer.h
+ C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/timer.h \
+ C:/Users/santa/Embbebed/Led-Testes/projectLib/include/utils/uart.h

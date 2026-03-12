@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/projectLib.dir/src/led.c.o"
   "CMakeFiles/projectLib.dir/src/led.c.o.d"
+  "CMakeFiles/projectLib.dir/src/timer.c.o"
+  "CMakeFiles/projectLib.dir/src/timer.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

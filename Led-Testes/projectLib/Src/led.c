@@ -1,9 +1,45 @@
-#include "led.h"
+#include "utils/led.h"
 #include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+#include <stdint.h>
 #include <stm32c0xx_hal.h>
 #include <stm32c0xx_hal_gpio.h>
 
-#ifdef REHOST_TESTING
+//Begining of UART mocks
+
+uint8_t last_sent_data[256];
+uint16_t last_sent_size = 0;
+bool uart_called = false;
+
+typedef struct{
+	uint8_t Instance;
+}UART_HandleTypeDef;
+
+UART_HandleTypeDef huart1;
+
+int HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout){
+
+	if(huart == &huart1){
+		uart_called = true;
+	 	 last_sent_size = Size;
+
+	 	 if(Size <= 256){
+	 		 memcpy(last_sent_data, pData, Size);
+	 }
+	 return 0;
+	}
+	return 1;
+}
+
+void sendMsg(){
+	uint8_t msg[] = "LED ON";
+	HAL_UART_Transmit(&huart1, msg, 6 ,100);
+}
+
+//End of Uart Mocks
+
+
 GPIO_PinState mock_PinState = GPIO_PIN_RESET;
 
 void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN, GPIO_PinState state){}
@@ -12,12 +48,13 @@ void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN){}
 
 GPIO_PinState HAL_GPIO_ReadPin(const GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN){
 	if(GPIOA == GPIOx && GPIO_PIN == GPIO_PIN_8){
-		printf("Button pressed\r\n");
+		char msg[50] = "Button Pressed\r\n";
+		printf(msg);
 		return mock_PinState;
 	}
 	return GPIO_PIN_SET;
 }
-#endif
+
 
 void PushButton(int id){
 	if(id == 8){
@@ -31,29 +68,23 @@ void PushButton(int id){
 void LedToggle(int id){
 	if(id == 1){
 		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_6);
-		printf("Toggle led 1\r\n");
 	}else{
 		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
-		printf("Toggle led 2\r\n");
 	}
 }
 
 void LedOn(int id){
 	if(id == 1){
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);
-		printf("Led %d acesso\r\n",id);
 	}else{
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
-		printf("Led %d acesso\r\n",id);
 	}
 }
 
 void LedOff(int id){
 	if(id == 1){
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
-		printf("Led %d apagado\r\n",id);
 	}else{
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
-		printf("Led %d apagado\r\n",id);
 	}
 }

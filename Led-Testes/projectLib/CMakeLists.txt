@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.22)
 add_library(projectLib OBJECT
  src/led.c
  src/timer.c
+ src/adc.c
 )
 
 target_compile_definitions(projectLib PUBLIC STM32C011xx)

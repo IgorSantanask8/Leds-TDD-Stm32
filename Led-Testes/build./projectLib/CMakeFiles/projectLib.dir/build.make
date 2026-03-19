@@ -100,8 +100,23 @@ projectLib/CMakeFiles/projectLib.dir/src/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/projectLib.dir/src/timer.c.s"
 	cd /c/Users/santa/Embbebed/Led-Testes/build./projectLib && /mingw32/bin/cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/santa/Embbebed/Led-Testes/projectLib/src/timer.c -o CMakeFiles/projectLib.dir/src/timer.c.s
 
+projectLib/CMakeFiles/projectLib.dir/src/adc.c.o: projectLib/CMakeFiles/projectLib.dir/flags.make
+projectLib/CMakeFiles/projectLib.dir/src/adc.c.o: /c/Users/santa/Embbebed/Led-Testes/projectLib/src/adc.c
+projectLib/CMakeFiles/projectLib.dir/src/adc.c.o: projectLib/CMakeFiles/projectLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/santa/Embbebed/Led-Testes/build./CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object projectLib/CMakeFiles/projectLib.dir/src/adc.c.o"
+	cd /c/Users/santa/Embbebed/Led-Testes/build./projectLib && /mingw32/bin/cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT projectLib/CMakeFiles/projectLib.dir/src/adc.c.o -MF CMakeFiles/projectLib.dir/src/adc.c.o.d -o CMakeFiles/projectLib.dir/src/adc.c.o -c /c/Users/santa/Embbebed/Led-Testes/projectLib/src/adc.c
+
+projectLib/CMakeFiles/projectLib.dir/src/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/projectLib.dir/src/adc.c.i"
+	cd /c/Users/santa/Embbebed/Led-Testes/build./projectLib && /mingw32/bin/cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /c/Users/santa/Embbebed/Led-Testes/projectLib/src/adc.c > CMakeFiles/projectLib.dir/src/adc.c.i
+
+projectLib/CMakeFiles/projectLib.dir/src/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/projectLib.dir/src/adc.c.s"
+	cd /c/Users/santa/Embbebed/Led-Testes/build./projectLib && /mingw32/bin/cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/santa/Embbebed/Led-Testes/projectLib/src/adc.c -o CMakeFiles/projectLib.dir/src/adc.c.s
+
 projectLib: projectLib/CMakeFiles/projectLib.dir/src/led.c.o
 projectLib: projectLib/CMakeFiles/projectLib.dir/src/timer.c.o
+projectLib: projectLib/CMakeFiles/projectLib.dir/src/adc.c.o
 projectLib: projectLib/CMakeFiles/projectLib.dir/build.make
 .PHONY : projectLib
 

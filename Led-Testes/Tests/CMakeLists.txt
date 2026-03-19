@@ -5,6 +5,7 @@ add_executable(test_on_host
  src/utils/ut_gpio.cpp
  src/utils/ut_timer.cpp
  src/utils/ut_uart.cpp
+ src/utils/ut_adc.cpp
 )
 
 target_include_directories(test_on_host

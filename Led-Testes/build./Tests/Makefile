@@ -154,6 +154,30 @@ src/main_test.cpp.s:
 	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/main_test.cpp.s
 .PHONY : src/main_test.cpp.s
 
+src/utils/ut_adc.o: src/utils/ut_adc.cpp.o
+.PHONY : src/utils/ut_adc.o
+
+# target to build an object file
+src/utils/ut_adc.cpp.o:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.o
+.PHONY : src/utils/ut_adc.cpp.o
+
+src/utils/ut_adc.i: src/utils/ut_adc.cpp.i
+.PHONY : src/utils/ut_adc.i
+
+# target to preprocess a source file
+src/utils/ut_adc.cpp.i:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.i
+.PHONY : src/utils/ut_adc.cpp.i
+
+src/utils/ut_adc.s: src/utils/ut_adc.cpp.s
+.PHONY : src/utils/ut_adc.s
+
+# target to generate assembly for a file
+src/utils/ut_adc.cpp.s:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.s
+.PHONY : src/utils/ut_adc.cpp.s
+
 src/utils/ut_gpio.o: src/utils/ut_gpio.cpp.o
 .PHONY : src/utils/ut_gpio.o
 
@@ -202,6 +226,30 @@ src/utils/ut_timer.cpp.s:
 	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.s
 .PHONY : src/utils/ut_timer.cpp.s
 
+src/utils/ut_uart.o: src/utils/ut_uart.cpp.o
+.PHONY : src/utils/ut_uart.o
+
+# target to build an object file
+src/utils/ut_uart.cpp.o:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o
+.PHONY : src/utils/ut_uart.cpp.o
+
+src/utils/ut_uart.i: src/utils/ut_uart.cpp.i
+.PHONY : src/utils/ut_uart.i
+
+# target to preprocess a source file
+src/utils/ut_uart.cpp.i:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.i
+.PHONY : src/utils/ut_uart.cpp.i
+
+src/utils/ut_uart.s: src/utils/ut_uart.cpp.s
+.PHONY : src/utils/ut_uart.s
+
+# target to generate assembly for a file
+src/utils/ut_uart.cpp.s:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/test_on_host.dir/build.make Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.s
+.PHONY : src/utils/ut_uart.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,12 +262,18 @@ help:
 	@echo "... src/main_test.o"
 	@echo "... src/main_test.i"
 	@echo "... src/main_test.s"
+	@echo "... src/utils/ut_adc.o"
+	@echo "... src/utils/ut_adc.i"
+	@echo "... src/utils/ut_adc.s"
 	@echo "... src/utils/ut_gpio.o"
 	@echo "... src/utils/ut_gpio.i"
 	@echo "... src/utils/ut_gpio.s"
 	@echo "... src/utils/ut_timer.o"
 	@echo "... src/utils/ut_timer.i"
 	@echo "... src/utils/ut_timer.s"
+	@echo "... src/utils/ut_uart.o"
+	@echo "... src/utils/ut_uart.i"
+	@echo "... src/utils/ut_uart.s"
 .PHONY : help
 
 

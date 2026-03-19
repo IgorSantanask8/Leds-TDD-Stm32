@@ -130,6 +130,30 @@ projectLib/fast:
 	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/build
 .PHONY : projectLib/fast
 
+src/adc.o: src/adc.c.o
+.PHONY : src/adc.o
+
+# target to build an object file
+src/adc.c.o:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/adc.c.o
+.PHONY : src/adc.c.o
+
+src/adc.i: src/adc.c.i
+.PHONY : src/adc.i
+
+# target to preprocess a source file
+src/adc.c.i:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/adc.c.i
+.PHONY : src/adc.c.i
+
+src/adc.s: src/adc.c.s
+.PHONY : src/adc.s
+
+# target to generate assembly for a file
+src/adc.c.s:
+	cd /c/Users/santa/Embbebed/Led-Testes/build. && $(MAKE) $(MAKESILENT) -f projectLib/CMakeFiles/projectLib.dir/build.make projectLib/CMakeFiles/projectLib.dir/src/adc.c.s
+.PHONY : src/adc.c.s
+
 src/led.o: src/led.c.o
 .PHONY : src/led.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... projectLib"
+	@echo "... src/adc.o"
+	@echo "... src/adc.i"
+	@echo "... src/adc.s"
 	@echo "... src/led.o"
 	@echo "... src/led.i"
 	@echo "... src/led.s"

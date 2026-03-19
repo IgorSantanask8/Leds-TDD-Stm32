@@ -5,13 +5,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../projectLib/Src/led.c 
+../projectLib/Src/adc.c \
+../projectLib/Src/led.c \
+../projectLib/Src/timer.c \
+../projectLib/Src/uart.c 
 
 OBJS += \
-./projectLib/Src/led.o 
+./projectLib/Src/adc.o \
+./projectLib/Src/led.o \
+./projectLib/Src/timer.o \
+./projectLib/Src/uart.o 
 
 C_DEPS += \
-./projectLib/Src/led.d 
+./projectLib/Src/adc.d \
+./projectLib/Src/led.d \
+./projectLib/Src/timer.d \
+./projectLib/Src/uart.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +30,7 @@ projectLib/Src/%.o projectLib/Src/%.su projectLib/Src/%.cyclo: ../projectLib/Src
 clean: clean-projectLib-2f-Src
 
 clean-projectLib-2f-Src:
-	-$(RM) ./projectLib/Src/led.cyclo ./projectLib/Src/led.d ./projectLib/Src/led.o ./projectLib/Src/led.su
+	-$(RM) ./projectLib/Src/adc.cyclo ./projectLib/Src/adc.d ./projectLib/Src/adc.o ./projectLib/Src/adc.su ./projectLib/Src/led.cyclo ./projectLib/Src/led.d ./projectLib/Src/led.o ./projectLib/Src/led.su ./projectLib/Src/timer.cyclo ./projectLib/Src/timer.d ./projectLib/Src/timer.o ./projectLib/Src/timer.su ./projectLib/Src/uart.cyclo ./projectLib/Src/uart.d ./projectLib/Src/uart.o ./projectLib/Src/uart.su
 
 .PHONY: clean-projectLib-2f-Src
 

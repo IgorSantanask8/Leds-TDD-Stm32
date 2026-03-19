@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_on_host.dir/src/main_test.cpp.o"
   "CMakeFiles/test_on_host.dir/src/main_test.cpp.o.d"
+  "CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.o"
+  "CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.o.d"
   "CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o"
   "CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o.d"
   "CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o"

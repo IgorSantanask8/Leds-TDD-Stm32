@@ -17,4 +17,7 @@
 "./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.o"
 "./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.o"
 "./Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.o"
+"./projectLib/Src/adc.o"
 "./projectLib/Src/led.o"
+"./projectLib/Src/timer.o"
+"./projectLib/Src/uart.o"

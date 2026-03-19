@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/c/Users/santa/Embbebed/Led-Testes/Tests/src/main_test.cpp" "Tests/CMakeFiles/test_on_host.dir/src/main_test.cpp.o" "gcc" "Tests/CMakeFiles/test_on_host.dir/src/main_test.cpp.o.d"
+  "/c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_adc.cpp" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.o" "gcc" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_adc.cpp.o.d"
   "/c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_gpio.cpp" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o" "gcc" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_gpio.cpp.o.d"
   "/c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_timer.cpp" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o" "gcc" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_timer.cpp.o.d"
   "/c/Users/santa/Embbebed/Led-Testes/Tests/src/utils/ut_uart.cpp" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o" "gcc" "Tests/CMakeFiles/test_on_host.dir/src/utils/ut_uart.cpp.o.d"
